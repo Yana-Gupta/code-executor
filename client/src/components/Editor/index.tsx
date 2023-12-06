@@ -242,7 +242,7 @@ const Editor = () => {
       <div className="code-editor">
         <MonacoEditor
           theme={editortheme}
-          language={language}
+          language={"python"}
           height="90vh"
           width="75vw"
           onMount={handleEditorDidMount}

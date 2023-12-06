@@ -6,7 +6,6 @@ LANGUAGES = {
     "c": "c", # Done 
     "rs": "rust", # Done 
     "java": "java", # Done 
-    "cs": "csharp" # Done 
 }
 
 
@@ -14,7 +13,6 @@ BUILD_COMMANDS = {
     "cpp": ["g++", "-o", "main", "main.cpp"],
     "c": ["gcc", "-o", "main", "main.c"],
     "java": ["javac", "main.java"],
-    "cs": ["csc", "/out:Main.exe", "Main.cs"],
     "go": ["go", "build", "main.go"],
     "rs": ["rustc", "-o", "main", "main.rs"],
     "py": ["python3", "main.py"]

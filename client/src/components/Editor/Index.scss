@@ -180,7 +180,7 @@ body {
                         padding-left: 10px;
                         padding-right: 10px;
                         height: 84%;
-                        width: 100%;
+                        width: 90%;
                     }
 
                     .error {
@@ -369,6 +369,19 @@ body {
 
                     .output {
                         color: white;
+                    }
+
+                    .input {
+                        color: white;
+                        font-family: "Courier New", monospace;
+                        font-size: 14px;
+                        margin-top: 10px;
+                        overflow: scroll;
+                        padding-left: 10px;
+                        padding-right: 10px;
+                        height: 84%;
+                        width: 90%;
+                        background-color: #007acc;
                     }
 
                 }
